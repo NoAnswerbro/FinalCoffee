@@ -1,0 +1,57 @@
+
+/******************************/
+/*******  header  *************/
+/******************************/
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1440px;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    z-index: 20;
+    background-color: #fff;
+    display: block;
+    position: fixed;
+}
+
+.header .h-wrap {
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header .h-wrap .h-logo {
+
+}
+
+.header .h-wrap .h-gnb { 
+    min-width: 300px;
+    padding: 0;
+    align-items: center;
+}
+
+.header .h-wrap .h-nav .h-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .h-wrap .h-nav ul li a {
+
+}
+
+.header .h-wrap .menu-etc {
+
+}
+
+.header .h-wrap .menu-etc a {
+
+}
+
