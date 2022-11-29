@@ -15,7 +15,7 @@
 
     <meta name="robots" content="noindex">
 
-    <link rel="stylesheet" href="../src/main/resources/css/header.css">
+    <link rel="stylesheet" href="resources/css/header.css">
 
     </head>
 
@@ -23,7 +23,7 @@
         <header>
             <div class="h-wrap">
                 <div class="h-logo">
-                    <a href=""><img src="" alt="cupofcoffee"></a>
+                    <a href=""><img src="resources/images/logo.png" alt="cupofcoffee"></a>
                 </div>
         
                 <div class="h-gnb">
