@@ -3,8 +3,7 @@
 <c:set var="path" value="${pageContext.request.contextPath}"/>
 <% long time = System.currentTimeMillis(); %>
 <!DOCTYPE html>
-<html>
-<head>
+
     <meta charset="UTF-8">
     <title>커퍼 커피(A Cup of Coffee)</title>
 
@@ -16,8 +15,10 @@
 
     <meta name="robots" content="noindex">
 
+   
     <link href="${path}/resources/css/header.css" rel="stylesheet" type="text/css">
     </head>
+   
 
     <body>
         <header>
