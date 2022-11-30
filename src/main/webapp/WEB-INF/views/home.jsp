@@ -4,13 +4,14 @@
 <html>
 <head>
 	<title>Home</title>
-	<jsp:include page="header.jsp" />
 </head>
 <body>
+	<jsp:include page="header.jsp" />
 <h1>
 	Hello world!  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<p>테스트..</p>
 </body>
 </html>

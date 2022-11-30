@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="path" value="${pageContext.request.contextPath}"/>
 <% long time = System.currentTimeMillis(); %>
 <!DOCTYPE html>
-<html>
-<head>
+
     <meta charset="UTF-8">
     <title>커퍼 커피(A Cup of Coffee)</title>
 
@@ -15,9 +15,10 @@
 
     <meta name="robots" content="noindex">
 
-    <link rel="stylesheet" href="resources/css/header.css">
-
+   
+    <link href="${path}/resources/css/header.css" rel="stylesheet" type="text/css">
     </head>
+   
 
     <body>
         <header>
@@ -28,12 +29,12 @@
         
                 <div class="h-gnb">
                     <nav class="h-nav">
-                        <li class="h-menu">
+                        <ul class="h-menu">
                             <li><a href="">나만의 커피</a></li>
                             <li><a href="">모든 커피</a></li>
                             <li><a href="">추천 커피</a></li>
                             <li><a href="">읽는 커피</a></li>
-                        </li>
+                        </ul>
                     </nav>
 
                     <div class="menu-etc">

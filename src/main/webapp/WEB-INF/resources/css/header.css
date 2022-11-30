@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-.header .h-wrap .h-logo img {
+.header .h-wrap .h-logo {
     height: 70px;
 }
 .header .h-wrap .h-gnb { 
