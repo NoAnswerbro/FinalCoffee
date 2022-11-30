@@ -4,9 +4,9 @@
 <html>
 <head>
 	<title>Home</title>
-	<jsp:include page="header.jsp" />
 </head>
 <body>
+	<jsp:include page="header.jsp" />
 <h1>
 	Hello world!  
 </h1>
